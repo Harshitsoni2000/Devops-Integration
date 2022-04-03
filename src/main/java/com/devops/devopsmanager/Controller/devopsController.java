@@ -26,4 +26,10 @@ public class devopsController {
     public Student getById(@PathVariable int id) {
         return service.getStudent(id);
     }
+
+    @PostMapping("/add")
+    @ResponseStatus(HttpStatus.CREATED)
+    public void addStudent(@RequestBody Student student) {
+        service.addStudent(student);
+    }
 }

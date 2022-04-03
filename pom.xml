@@ -52,7 +52,7 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
-                    <finalName>devops</finalName>
+                    <finalName>Devops-Integration</finalName>
                 </configuration>
             </plugin>
         </plugins>
